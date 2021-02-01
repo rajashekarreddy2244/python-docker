@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-  return 'Hello Docker from GitHub!'
+  return 'Hello again Docker from GitHub!'
 
 @app.route('/widgets', methods=["GET"])
 def get_widgets() :
